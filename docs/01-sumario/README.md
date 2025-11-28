@@ -8,19 +8,19 @@
 ## 📋 Índice Geral
 
 | Parte | Nome | Capítulos |
-|-------|------|-----------|
-| I | Módulos Core | 01-03 |
-| II | Módulo Comercial | 04 |
-| III | Módulo Compras | 05 |
-| IV | Módulos Financeiros | 06-09 |
-| V | Módulos Fiscais | 10-12 |
-| VI | Separação e Expedição | 13 |
-| VII | Módulos de Inteligência | 14 |
-| VIII | Módulos de Marketing e Atendimento | 15-17 |
-| IX | Módulos de Integração | 18-19 |
-| X | Módulos de Interface | 20-21 |
-| XI | Módulos de Suporte | 22-23 |
-| - | Anexos | A-D |
+|:-----:|:-----|:---------:|
+| **Parte 1** | Módulos Core | 01-03 |
+| **Parte 2** | Módulo Comercial | 04 |
+| **Parte 3** | Módulo Compras | 05 |
+| **Parte 4** | Módulos Financeiros | 06-09 |
+| **Parte 5** | Módulos Fiscais | 10-12 |
+| **Parte 6** | Separação e Expedição | 13 |
+| **Parte 7** | Módulos de Inteligência | 14 |
+| **Parte 8** | Módulos de Marketing e Atendimento | 15-17 |
+| **Parte 9** | Módulos de Integração | 18-19 |
+| **Parte 10** | Módulos de Interface | 20-21 |
+| **Parte 11** | Módulos de Suporte | 22-23 |
+| **Anexos** | Anexos | A-D |
 
 ---
 
