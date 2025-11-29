@@ -21,6 +21,7 @@ Versão 2.0 - Estrutura Reorganizada | 23 Capítulos + 4 Anexos
 | **9** | Módulos de Integração | 18-19 |
 | **10** | Módulos de Interface | 20-21 |
 | **11** | Módulos de Suporte | 22-23 |
+| **12** | Recursos Humanos | 24 |
 | **-** | Anexos | A-D |
 
 ---
@@ -835,6 +836,119 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 
 ---
 
+## PARTE 12 - RECURSOS HUMANOS
+
+### Capítulo 24 - Gestão de RH
+
+**24.1 - Cadastro de Colaboradores:**
+
+- Dados pessoais (nome, CPF, RG, endereço)
+- Dados contratuais (cargo, departamento, data admissão)
+- Documentos digitalizados
+- Dependentes
+- Dados bancários
+- Histórico de cargos/salários
+- Foto do colaborador
+
+**24.2 - Estrutura Organizacional:**
+
+- Departamentos e setores
+- Cargos e funções
+- Hierarquia (organograma)
+- Centros de custo por departamento
+
+**24.3 - Controle de Ponto:**
+
+- Registro de ponto (entrada, saída, intervalos)
+- Ponto eletrônico integrado
+- Ponto pelo App do Colaborador
+- Ponto por geolocalização (externo)
+- Banco de horas
+- Horas extras
+- Faltas e atrasos
+- Abonos
+- Espelho de ponto
+- Fechamento mensal
+
+**24.4 - Férias e Afastamentos:**
+
+- Programação de férias
+- Saldo de férias
+- Solicitação de férias (pelo app)
+- Aprovação de férias
+- Afastamentos (atestado, licenças)
+- Controle de atestados médicos
+
+**24.5 - Folha de Pagamento:**
+
+- Cálculo automático de salários
+- Horas extras e adicionais
+- Descontos (INSS, IRRF, VT, VR, faltas)
+- Benefícios
+- Comissões (integração com vendas)
+- 13º salário
+- Rescisão
+- Geração de holerites
+- Integração contábil
+
+**24.6 - Benefícios:**
+
+- Vale transporte
+- Vale refeição/alimentação
+- Plano de saúde
+- Plano odontológico
+- Seguro de vida
+- Outros benefícios
+
+**24.7 - Recrutamento e Seleção:**
+
+- Banco de currículos
+- Vagas abertas
+- Candidaturas
+- Triagem de currículos
+- Agendamento de entrevistas
+- Avaliação de candidatos
+- Histórico de processos seletivos
+
+**24.8 - Treinamentos:**
+
+- Cadastro de treinamentos
+- Programação de treinamentos
+- Inscrições
+- Lista de presença
+- Certificados
+- Histórico por colaborador
+- Treinamentos obrigatórios (NR)
+
+**24.9 - Avaliação de Desempenho:**
+
+- Ciclos de avaliação
+- Metas individuais
+- Autoavaliação
+- Avaliação do gestor
+- Feedback 360º
+- Plano de desenvolvimento individual (PDI)
+
+**24.10 - App do Colaborador:**
+
+- Login seguro (CPF + senha)
+- Bater ponto pelo celular
+- Ponto com geolocalização e foto
+- Ver espelho de ponto
+- Solicitar férias
+- Solicitar abono/justificativa
+- Ver holerites (PDF)
+- Ver informe de rendimentos
+- Atualizar dados cadastrais
+- Enviar atestados médicos (foto)
+- Ver escala de trabalho
+- Ver comunicados da empresa
+- Canal de denúncias (anônimo)
+- Chat com RH
+- Notificações push
+
+---
+
 ## ANEXOS
 
 ### Anexo A - Arquitetura Técnica
@@ -859,12 +973,12 @@ Fases de implantação, ordem de módulos, cronograma
 
 | Info | Valor |
 |------|-------|
-| Total de Capítulos | 23 |
-| Total de Partes | 11 |
+| Total de Capítulos | 24 |
+| Total de Partes | 12 |
 | Total de Anexos | 4 |
 | Submódulos COMERCIAL | 9 |
 | Submódulos COMPRAS | 11 |
-| Versão | 2.0 |
+| Versão | 2.1 |
 
 ---
 
@@ -872,6 +986,7 @@ Fases de implantação, ordem de módulos, cronograma
 
 | Versão | Data | Alterações |
 |--------|------|------------|
+| 2.1 | 29/11/2025 | Adicionado: E-commerce B2B+B2C, RH com App do Colaborador, Rastreamento GPS |
 | 2.0 | 28/11/2025 | Reorganização: 23 capítulos, menus COMERCIAL e COMPRAS |
 | 1.0 | 28/11/2025 | Estrutura inicial: 34 capítulos |
 
