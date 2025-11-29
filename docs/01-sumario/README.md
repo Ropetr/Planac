@@ -626,7 +626,26 @@ Trocando produto com fornecedor:
 - Download de XML das notas fiscais
 - Múltiplos endereços de entrega
 
-**16.5 - Área do Vendedor/Representante:**
+**16.5 - Área do Cliente (Minha Conta):**
+
+- Meus pedidos (status, histórico completo)
+- Rastreamento de entregas
+- Segundas vias de boletos
+- Minhas notas fiscais (download XML/PDF)
+- Meus orçamentos/cotações
+- Meu limite de crédito (B2B)
+- Meu saldo de créditos (indicações, devoluções)
+- Meus endereços
+- Meus dados cadastrais
+- Minhas listas de compras (B2B)
+- Repetir pedido anterior
+- Abrir chamado/suporte
+- Histórico de atendimentos
+- Programa de indicação (meu link, minhas indicações)
+- Trocar senha
+- Preferências de notificação
+
+**16.6 - Área do Vendedor/Representante:**
 
 - Login como representante
 - Selecionar cliente para fazer pedido
@@ -635,7 +654,7 @@ Trocando produto com fornecedor:
 - Comissões a receber
 - Metas e performance
 
-**16.6 - Formas de Pagamento:**
+**16.7 - Formas de Pagamento:**
 
 - Checkout transparente
 - PIX (com QR Code e copia/cola)
@@ -651,7 +670,7 @@ Trocando produto com fornecedor:
 - Boleto parcelado
 - Cartão corporativo
 
-**16.7 - Frete e Logística:**
+**16.8 - Frete e Logística:**
 
 - Integração com Correios
 - Integração com transportadoras
@@ -663,7 +682,7 @@ Trocando produto com fornecedor:
 - Rastreamento integrado
 - Múltiplos CDs (estoque por região)
 
-**16.8 - Recuperação e Conversão:**
+**16.9 - Recuperação e Conversão:**
 
 - Carrinho abandonado (e-mail automático)
 - Cupons de desconto
@@ -673,7 +692,7 @@ Trocando produto com fornecedor:
 - Pop-ups de captura (primeira compra)
 - Contador de urgência (promoção por tempo limitado)
 
-**16.9 - Integrações:**
+**16.10 - Integrações:**
 
 - Sincronização com ERP PLANAC (estoque, preços, pedidos, clientes)
 - Marketplaces (estrutura preparada para futuro)
@@ -688,7 +707,7 @@ Trocando produto com fornecedor:
 - Google Analytics / Tag Manager
 - Meta Pixel (Facebook/Instagram Ads)
 
-**16.10 - Relatórios e Analytics:**
+**16.11 - Relatórios e Analytics:**
 
 - Vendas por período
 - Vendas por categoria/produto
@@ -701,7 +720,7 @@ Trocando produto com fornecedor:
 - Novos clientes vs recorrentes
 - Dashboard em tempo real
 
-**16.11 - App Mobile (PWA):**
+**16.12 - App Mobile (PWA):**
 
 - Versão responsiva otimizada
 - Progressive Web App (instalar na tela inicial)
@@ -755,14 +774,9 @@ Trocando produto com fornecedor:
 
 ### Capítulo 20 - Portal do Cliente
 
-- Consulta de pedidos
-- Segunda via de boletos
-- Histórico de compras
-- Abertura de chamados
-- Catálogo de produtos
-- Rastreamento de entregas
-- Documentos fiscais
-- Consulta de crédito disponível
+(Funcionalidades migradas para o Capítulo 16 - E-commerce, seção 16.5 - Área do Cliente)
+
+O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na área "Minha Conta".
 
 ### Capítulo 21 - App Mobile (Força de Vendas)
 
