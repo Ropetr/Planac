@@ -2,7 +2,7 @@
 
 Sistema ERP Completo | Multi-Empresas | Atacado, Varejo e Atacarejo
 
-Versão 2.0 - Estrutura Reorganizada | 23 Capítulos + 4 Anexos
+Versão 3.0 - Estrutura Completa | 28 Capítulos + 4 Anexos
 
 ---
 
@@ -14,14 +14,14 @@ Versão 2.0 - Estrutura Reorganizada | 23 Capítulos + 4 Anexos
 | **2** | Módulo Comercial | 04 |
 | **3** | Módulo Compras | 05 |
 | **4** | Módulos Financeiros | 06-09 |
-| **5** | Módulos Fiscais | 10-12 |
-| **6** | Separação e Expedição | 13 |
-| **7** | Módulos de Inteligência | 14 |
-| **8** | Módulos de Marketing, E-commerce e Atendimento | 15-17 |
-| **9** | Módulos de Integração | 18-19 |
-| **10** | Módulos de Interface | 20-21 |
-| **11** | Módulos de Suporte | 22-23 |
-| **12** | Recursos Humanos | 24 |
+| **5** | Módulos Fiscais e Contábeis | 10-14 |
+| **6** | Separação e Expedição | 15 |
+| **7** | Módulos de Inteligência | 16 |
+| **8** | Marketing, E-commerce e Atendimento | 17-19 |
+| **9** | Módulos de Integração | 20-21 |
+| **10** | Módulos de Interface | 22-23 |
+| **11** | Módulos de Suporte | 24-25 |
+| **12** | Recursos Humanos | 26 |
 | **-** | Anexos | A-D |
 
 ---
@@ -87,7 +87,7 @@ Versão 2.0 - Estrutura Reorganizada | 23 Capítulos + 4 Anexos
 
 ## PARTE 2 - MÓDULO COMERCIAL
 
-### Capítulo 04 - Comercial (9 Submódulos)
+### Capítulo 04 - Comercial (12 Submódulos)
 
 **Menu da Interface:**
 
@@ -101,7 +101,10 @@ COMERCIAL
 ├── Programa de Indicações
 ├── Devolução de Venda
 ├── Troca de Venda
-└── Serviços
+├── Serviços
+├── Consignação
+├── Garantia de Produtos
+└── Gamificação
 ```
 
 ---
@@ -342,11 +345,127 @@ Cliente troca produto por outro:
 - SLA e Prazos
 - NFS-e (Nota Fiscal de Serviço)
 
+#### 4.10 - Consignação
+
+**Envio em Consignação:**
+
+- Romaneio de consignação
+- Cliente depositário
+- Produtos e quantidades
+- Prazo para retorno/acerto
+- NF de remessa em consignação
+
+**Controle de Consignação:**
+
+- Estoque em consignação (por cliente)
+- Posição de consignação
+- Alertas de prazo vencendo
+
+**Acerto de Consignação:**
+
+- Registrar vendas realizadas pelo cliente
+- Devolução de itens não vendidos
+- Geração de NF de venda (itens vendidos)
+- Geração de NF de retorno (itens devolvidos)
+- Diferenças e ajustes
+
+**Relatórios:**
+
+- Posição por cliente
+- Produtos em consignação
+- Histórico de acertos
+- Consignações vencidas
+
+#### 4.11 - Garantia de Produtos
+
+**Cadastro de Garantias:**
+
+- Prazo de garantia por produto/categoria
+- Tipo: Garantia do fabricante ou da loja
+- Condições de garantia
+- Documentação necessária
+
+**Controle de Garantias:**
+
+- Produtos em garantia (por cliente/venda)
+- Consulta de garantia por número de série
+- Consulta de garantia por NF
+
+**Chamado de Garantia:**
+
+- Abertura de chamado pelo cliente
+- Descrição do defeito
+- Fotos do problema
+- Análise técnica
+- Laudo técnico
+- Aprovação ou reprovação
+- Motivo da reprovação
+
+**Resolução:**
+
+- Reparo do produto
+- Troca por produto novo
+- Devolução do valor
+- Crédito para o cliente
+- Envio para assistência do fabricante
+
+**Relatórios:**
+
+- Chamados por período
+- Taxa de aprovação/reprovação
+- Produtos com mais chamados
+- Tempo médio de resolução
+
+#### 4.12 - Gamificação
+
+**Metas:**
+
+- Metas individuais por vendedor
+- Metas de equipe/filial
+- Metas por período (diária, semanal, mensal)
+- Tipos de meta:
+  - Volume de vendas (R$)
+  - Quantidade de pedidos
+  - Novos clientes
+  - Mix de produtos
+  - Margem de lucro
+  - Itens específicos
+
+**Sistema de Pontuação:**
+
+- Pontos por venda realizada
+- Pontos por meta batida
+- Pontos por cliente novo
+- Pontos por produto estratégico
+- Multiplicadores (campanhas especiais)
+
+**Ranking e Competição:**
+
+- Ranking em tempo real
+- Ranking por período
+- Ranking por equipe
+- Comparativo com período anterior
+
+**Premiações:**
+
+- Cadastro de prêmios
+- Regras de premiação
+- Resgate de prêmios
+- Histórico de premiações
+
+**Dashboard de Performance:**
+
+- Visão individual do vendedor
+- Progresso das metas
+- Posição no ranking
+- Conquistas e badges
+- Histórico de performance
+
 ---
 
 ## PARTE 3 - MÓDULO COMPRAS
 
-### Capítulo 05 - Compras (11 Submódulos)
+### Capítulo 05 - Compras (12 Submódulos)
 
 **Menu da Interface:**
 
@@ -362,7 +481,8 @@ COMPRAS
 ├── Estoque
 ├── WMS (Gestão de Armazém)
 ├── Produção / PCP
-└── Gestão de Kits
+├── Gestão de Kits
+└── Custos e Precificação
 ```
 
 ---
@@ -460,6 +580,81 @@ Trocando produto com fornecedor:
 - Alerta de componente em falta
 - Custo do kit
 
+#### 5.12 - Custos e Precificação
+
+**Custos Fixos:**
+
+- Cadastro de custos fixos mensais
+- Aluguel, energia, água, telefone
+- Salários e encargos
+- Seguros
+- Manutenção
+- Marketing
+- Outros custos fixos
+- Rateio por filial/departamento
+
+**Custos Variáveis:**
+
+- Comissões de vendas
+- Impostos sobre vendas
+- Frete de entrega
+- Embalagens
+- Taxa de cartão
+- Outros custos variáveis
+- Percentual sobre venda
+
+**Custo de Mercadoria:**
+
+- Custo de aquisição
+- Frete de compra
+- Impostos recuperáveis
+- Custo médio ponderado
+- PEPS (Primeiro que Entra, Primeiro que Sai)
+- Custo de reposição
+- Histórico de custos
+
+**Precificação:**
+
+- Markup por categoria/produto
+- Margem de contribuição
+- Margem líquida
+- Ponto de equilíbrio
+
+**Formação de Preço:**
+
+- Custo + Markup fixo
+- Custo + Custos fixos rateados + Margem
+- Baseado no preço do concorrente
+- Preço sugerido pelo fabricante
+- Simulador de preços (what-if)
+
+**Regras de Precificação:**
+
+- Margem mínima por categoria
+- Alerta de venda abaixo do custo
+- Alerta de margem abaixo do mínimo
+- Aprovação para venda com margem reduzida
+- Precificação automática em lote
+
+**Análises:**
+
+- DRE por produto
+- DRE por categoria
+- DRE por cliente
+- DRE por vendedor
+- Comparativo custo vs preço vs mercado
+- Evolução de margens
+- Produtos com margem negativa
+
+**Relatórios:**
+
+- Rentabilidade por produto
+- Rentabilidade por categoria
+- Rentabilidade por cliente
+- Custos fixos vs variáveis
+- Ponto de equilíbrio
+- Simulação de cenários
+
 ---
 
 ## PARTE 4 - MÓDULOS FINANCEIROS
@@ -501,7 +696,7 @@ Trocando produto com fornecedor:
 
 ---
 
-## PARTE 5 - MÓDULOS FISCAIS
+## PARTE 5 - MÓDULOS FISCAIS E CONTÁBEIS
 
 ### Capítulo 10 - Fiscal / Tributário
 
@@ -529,11 +724,125 @@ Trocando produto com fornecedor:
 - EFD-Reinf
 - DCTF
 
+### Capítulo 13 - Contabilidade
+
+**Plano de Contas:**
+
+- Plano de contas padrão
+- Personalização do plano
+- Contas patrimoniais
+- Contas de resultado
+- Vinculação automática de lançamentos
+
+**Lançamentos Contábeis:**
+
+- Lançamentos automáticos (vendas, compras, pagamentos)
+- Lançamentos manuais
+- Lançamentos de ajuste
+- Estorno de lançamentos
+- Importação de lançamentos
+
+**Livros Contábeis:**
+
+- Livro Diário
+- Livro Razão
+- Balancete de Verificação
+
+**Demonstrações:**
+
+- DRE (Demonstrativo de Resultado do Exercício)
+- Balanço Patrimonial
+- DFC (Demonstração de Fluxo de Caixa)
+- DMPL (Demonstração das Mutações do Patrimônio Líquido)
+
+**Fechamento:**
+
+- Fechamento mensal
+- Fechamento anual
+- Apuração de resultado
+- Distribuição de lucros
+
+**Integração:**
+
+- Exportação para contador
+- Importação de ajustes do contador
+- Layouts padrão (SPED Contábil)
+
+### Capítulo 14 - Patrimônio
+
+**Cadastro de Bens:**
+
+- Código do patrimônio (etiqueta)
+- Descrição do bem
+- Categoria (veículos, equipamentos, móveis, TI, imóveis)
+- Data de aquisição
+- Valor de aquisição
+- Nota fiscal de origem
+- Número de série
+- Foto do bem
+- Localização (filial, departamento, sala)
+- Responsável
+
+**Depreciação:**
+
+- Vida útil por categoria
+- Taxa de depreciação
+- Cálculo automático mensal
+- Depreciação acumulada
+- Valor residual
+- Lançamento contábil automático
+
+**Movimentações:**
+
+- Transferência entre filiais
+- Transferência entre departamentos
+- Transferência de responsável
+- Histórico de movimentações
+
+**Manutenção:**
+
+- Registro de manutenções preventivas
+- Registro de manutenções corretivas
+- Agendamento de manutenções
+- Custos de manutenção
+- Histórico por bem
+
+**Seguros:**
+
+- Apólice de seguro
+- Vigência
+- Valor segurado
+- Alertas de vencimento
+
+**Baixa de Bens:**
+
+- Venda do bem
+- Doação
+- Perda/Sinistro
+- Descarte
+- Lançamento contábil de baixa
+
+**Inventário:**
+
+- Inventário físico de patrimônio
+- Conferência por código de barras/QR Code
+- Divergências (sobras, faltas)
+- Relatório de inventário
+
+**Relatórios:**
+
+- Relação de bens por categoria
+- Relação de bens por localização
+- Relação de bens por responsável
+- Bens totalmente depreciados
+- Depreciação por período
+- Valor patrimonial total
+
 ---
 
 ## PARTE 6 - SEPARAÇÃO E EXPEDIÇÃO
 
-### Capítulo 13 - Separação e Expedição
+### Capítulo 15 - Separação e Expedição
 
 - Separação de pedidos (picking)
 - Conferência de itens
@@ -562,7 +871,7 @@ Trocando produto com fornecedor:
 
 ## PARTE 7 - MÓDULOS DE INTELIGÊNCIA
 
-### Capítulo 14 - BI e Dashboards
+### Capítulo 16 - BI e Dashboards
 
 - Dashboards personalizáveis
 - KPIs por módulo
@@ -573,9 +882,9 @@ Trocando produto com fornecedor:
 
 ---
 
-## PARTE 8 - MÓDULOS DE MARKETING, E-COMMERCE E ATENDIMENTO
+## PARTE 8 - MARKETING, E-COMMERCE E ATENDIMENTO
 
-### Capítulo 15 - OmniPro (Atendimento Multicanal)
+### Capítulo 17 - OmniPro (Atendimento Multicanal)
 
 - WhatsApp Business API
 - Instagram Direct
@@ -586,9 +895,9 @@ Trocando produto com fornecedor:
 - Histórico unificado
 - Transferência entre atendentes
 
-### Capítulo 16 - E-commerce (B2B + B2C)
+### Capítulo 18 - E-commerce (B2B + B2C)
 
-**16.1 - Configurações Gerais:**
+**18.1 - Configurações Gerais:**
 
 - Domínio e SSL
 - Identidade visual (logo, cores, fontes)
@@ -597,7 +906,7 @@ Trocando produto com fornecedor:
 - SEO básico (meta tags, sitemap, robots)
 - Blog integrado
 
-**16.2 - Catálogo de Produtos:**
+**18.2 - Catálogo de Produtos:**
 
 - Sincronização automática com cadastro do ERP
 - Categorias e subcategorias
@@ -610,7 +919,7 @@ Trocando produto com fornecedor:
 - Estoque em tempo real
 - Avise-me quando chegar
 
-**16.3 - Vitrine B2C (Consumidor Final):**
+**18.3 - Vitrine B2C (Consumidor Final):**
 
 - Cadastro simplificado (CPF, e-mail, telefone)
 - Preço de varejo
@@ -619,7 +928,7 @@ Trocando produto com fornecedor:
 - Avaliações e comentários de produtos
 - Comparador de produtos
 
-**16.4 - Portal B2B (Atacado/Revenda):**
+**18.4 - Portal B2B (Atacado/Revenda):**
 
 - Cadastro com aprovação prévia (CNPJ)
 - Análise de crédito integrada
@@ -638,7 +947,7 @@ Trocando produto com fornecedor:
 - Download de XML das notas fiscais
 - Múltiplos endereços de entrega
 
-**16.5 - Área do Cliente (Minha Conta):**
+**18.5 - Área do Cliente (Minha Conta):**
 
 - Meus pedidos (status, histórico completo)
 - Rastreamento de entregas
@@ -659,7 +968,7 @@ Trocando produto com fornecedor:
 - Trocar senha
 - Preferências de notificação
 
-**16.6 - Área do Vendedor/Representante:**
+**18.6 - Área do Vendedor/Representante:**
 
 - Login como representante
 - Selecionar cliente para fazer pedido
@@ -668,7 +977,7 @@ Trocando produto com fornecedor:
 - Comissões a receber
 - Metas e performance
 
-**16.7 - Formas de Pagamento:**
+**18.7 - Formas de Pagamento:**
 
 - Checkout transparente
 - PIX (com QR Code e copia/cola)
@@ -684,7 +993,7 @@ Trocando produto com fornecedor:
 - Boleto parcelado
 - Cartão corporativo
 
-**16.8 - Frete e Logística:**
+**18.8 - Frete e Logística:**
 
 - Integração com Correios
 - Integração com transportadoras
@@ -699,7 +1008,7 @@ Trocando produto com fornecedor:
 - Notificação automática (saiu para entrega, chegando)
 - Múltiplos CDs (estoque por região)
 
-**16.9 - Recuperação e Conversão:**
+**18.9 - Recuperação e Conversão:**
 
 - Carrinho abandonado (e-mail automático)
 - Cupons de desconto
@@ -709,7 +1018,7 @@ Trocando produto com fornecedor:
 - Pop-ups de captura (primeira compra)
 - Contador de urgência (promoção por tempo limitado)
 
-**16.10 - Integrações:**
+**18.10 - Integrações:**
 
 - Sincronização com ERP PLANAC (estoque, preços, pedidos, clientes)
 - Marketplaces (estrutura preparada para futuro)
@@ -724,7 +1033,7 @@ Trocando produto com fornecedor:
 - Google Analytics / Tag Manager
 - Meta Pixel (Facebook/Instagram Ads)
 
-**16.11 - Relatórios e Analytics:**
+**18.11 - Relatórios e Analytics:**
 
 - Vendas por período
 - Vendas por categoria/produto
@@ -737,14 +1046,14 @@ Trocando produto com fornecedor:
 - Novos clientes vs recorrentes
 - Dashboard em tempo real
 
-**16.12 - App Mobile (PWA):**
+**18.12 - App Mobile (PWA):**
 
 - Versão responsiva otimizada
 - Progressive Web App (instalar na tela inicial)
 - Notificações push
 - Navegação offline (catálogo em cache)
 
-### Capítulo 17 - Google e Meta
+### Capítulo 19 - Google e Meta
 
 **Google:**
 
@@ -767,16 +1076,17 @@ Trocando produto com fornecedor:
 
 ## PARTE 9 - MÓDULOS DE INTEGRAÇÃO
 
-### Capítulo 18 - Integrações Externas
+### Capítulo 20 - Integrações Externas
 
-- E-commerce (Magento, WooCommerce, VTEX)
 - Marketplaces (Mercado Livre, Amazon, Shopee)
 - APIs de consulta (CNPJ, CEP, IBGE)
 - Gateways de pagamento
 - Contabilidade (exportação)
 - ERP legado (migração)
+- WhatsApp Business API
+- Bancos (Open Banking, CNAB)
 
-### Capítulo 19 - Automação e Workflows
+### Capítulo 21 - Automação e Workflows
 
 - Regras de negócio automatizadas
 - Notificações e alertas (email, SMS, push)
@@ -789,13 +1099,13 @@ Trocando produto com fornecedor:
 
 ## PARTE 10 - MÓDULOS DE INTERFACE
 
-### Capítulo 20 - Portal do Cliente
+### Capítulo 22 - Portal do Cliente
 
-(Funcionalidades migradas para o Capítulo 16 - E-commerce, seção 16.5 - Área do Cliente)
+(Funcionalidades migradas para o Capítulo 18 - E-commerce, seção 18.5 - Área do Cliente)
 
 O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na área "Minha Conta".
 
-### Capítulo 21 - App Mobile (Força de Vendas)
+### Capítulo 23 - App Mobile (Força de Vendas)
 
 - Cadastro de clientes em campo
 - Pedidos offline (sincronização)
@@ -809,7 +1119,7 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 
 ## PARTE 11 - MÓDULOS DE SUPORTE
 
-### Capítulo 22 - Configurações do Sistema
+### Capítulo 24 - Configurações do Sistema
 
 - Parâmetros gerais
 - Personalização de campos
@@ -825,7 +1135,39 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 - Validade de crédito de indicação
 - Dias para alerta de faturamento pendente
 
-### Capítulo 23 - Central de Ajuda
+### Capítulo 25 - Agenda e Calendário
+
+**Agenda Pessoal:**
+
+- Compromissos individuais
+- Tarefas pessoais
+- Lembretes
+- Visualização dia/semana/mês
+
+**Agenda de Equipe:**
+
+- Compromissos compartilhados
+- Reuniões
+- Eventos da empresa
+- Visualização por equipe/departamento
+
+**Agenda Comercial:**
+
+- Visitas a clientes agendadas
+- Follow-ups programados
+- Retornos de orçamentos
+- Integração com CRM
+
+**Recursos:**
+
+- Sincronização com Google Calendar
+- Notificações e lembretes
+- Convites por e-mail
+- Confirmação de presença
+- Anexos em compromissos
+- Recorrência de eventos
+
+### Capítulo 26 - Central de Ajuda
 
 - Documentação do sistema
 - Tutoriais em vídeo
@@ -838,9 +1180,9 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 
 ## PARTE 12 - RECURSOS HUMANOS
 
-### Capítulo 24 - Gestão de RH
+### Capítulo 27 - Gestão de RH
 
-**24.1 - Cadastro de Colaboradores:**
+**27.1 - Cadastro de Colaboradores:**
 
 - Dados pessoais (nome, CPF, RG, endereço)
 - Dados contratuais (cargo, departamento, data admissão)
@@ -850,14 +1192,14 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 - Histórico de cargos/salários
 - Foto do colaborador
 
-**24.2 - Estrutura Organizacional:**
+**27.2 - Estrutura Organizacional:**
 
 - Departamentos e setores
 - Cargos e funções
 - Hierarquia (organograma)
 - Centros de custo por departamento
 
-**24.3 - Controle de Ponto:**
+**27.3 - Controle de Ponto:**
 
 - Registro de ponto (entrada, saída, intervalos)
 - Ponto eletrônico integrado
@@ -870,7 +1212,7 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 - Espelho de ponto
 - Fechamento mensal
 
-**24.4 - Férias e Afastamentos:**
+**27.4 - Férias e Afastamentos:**
 
 - Programação de férias
 - Saldo de férias
@@ -879,7 +1221,7 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 - Afastamentos (atestado, licenças)
 - Controle de atestados médicos
 
-**24.5 - Folha de Pagamento:**
+**27.5 - Folha de Pagamento:**
 
 - Cálculo automático de salários
 - Horas extras e adicionais
@@ -891,7 +1233,7 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 - Geração de holerites
 - Integração contábil
 
-**24.6 - Benefícios:**
+**27.6 - Benefícios:**
 
 - Vale transporte
 - Vale refeição/alimentação
@@ -900,7 +1242,7 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 - Seguro de vida
 - Outros benefícios
 
-**24.7 - Recrutamento e Seleção:**
+**27.7 - Recrutamento e Seleção:**
 
 - Banco de currículos
 - Vagas abertas
@@ -910,7 +1252,7 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 - Avaliação de candidatos
 - Histórico de processos seletivos
 
-**24.8 - Treinamentos:**
+**27.8 - Treinamentos:**
 
 - Cadastro de treinamentos
 - Programação de treinamentos
@@ -920,7 +1262,7 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 - Histórico por colaborador
 - Treinamentos obrigatórios (NR)
 
-**24.9 - Avaliação de Desempenho:**
+**27.9 - Avaliação de Desempenho:**
 
 - Ciclos de avaliação
 - Metas individuais
@@ -929,7 +1271,7 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 - Feedback 360º
 - Plano de desenvolvimento individual (PDI)
 
-**24.10 - App do Colaborador:**
+**27.10 - App do Colaborador:**
 
 - Login seguro (CPF + senha)
 - Bater ponto pelo celular
@@ -946,6 +1288,80 @@ O acesso do cliente ao portal acontece através do mesmo login do E-commerce, na
 - Canal de denúncias (anônimo)
 - Chat com RH
 - Notificações push
+
+---
+
+## PARTE 13 - CONTRATOS
+
+### Capítulo 28 - Gestão de Contratos
+
+**28.1 - Contratos com Clientes:**
+
+- Contrato de fornecimento
+- Contrato de prestação de serviços
+- Acordo comercial
+- Condições especiais (preços, prazos, descontos)
+- Volume mínimo acordado
+- Exclusividade
+
+**28.2 - Contratos com Fornecedores:**
+
+- Contrato de fornecimento
+- Acordo de exclusividade
+- Condições de pagamento especiais
+- Bonificações acordadas
+- Metas de compra
+
+**28.3 - Cadastro de Contratos:**
+
+- Número do contrato
+- Partes envolvidas
+- Objeto do contrato
+- Valor total ou estimado
+- Vigência (início e fim)
+- Condições de renovação
+- Cláusulas especiais
+- Documentos anexados (PDF do contrato)
+- Responsável interno
+
+**28.4 - Gestão de Vigência:**
+
+- Alertas de vencimento (30, 60, 90 dias)
+- Renovação automática
+- Renovação manual
+- Encerramento de contrato
+- Histórico de renovações
+
+**28.5 - Aditivos:**
+
+- Aditivo de prazo
+- Aditivo de valor
+- Aditivo de escopo
+- Histórico de aditivos
+- Versionamento do contrato
+
+**28.6 - Acompanhamento:**
+
+- Cumprimento de metas
+- Volumes realizados vs acordados
+- Alertas de descumprimento
+- Relatório de performance do contrato
+
+**28.7 - Assinatura Digital:**
+
+- Integração com plataforma de assinatura
+- Assinatura eletrônica
+- Certificado digital
+- Validade jurídica
+- Histórico de assinaturas
+
+**28.8 - Relatórios:**
+
+- Contratos vigentes
+- Contratos a vencer
+- Contratos por cliente/fornecedor
+- Valores contratados
+- Performance de contratos
 
 ---
 
@@ -973,12 +1389,12 @@ Fases de implantação, ordem de módulos, cronograma
 
 | Info | Valor |
 |------|-------|
-| Total de Capítulos | 24 |
-| Total de Partes | 12 |
+| Total de Capítulos | 28 |
+| Total de Partes | 13 |
 | Total de Anexos | 4 |
-| Submódulos COMERCIAL | 9 |
-| Submódulos COMPRAS | 11 |
-| Versão | 2.1 |
+| Submódulos COMERCIAL | 12 |
+| Submódulos COMPRAS | 12 |
+| Versão | 3.0 |
 
 ---
 
@@ -986,6 +1402,7 @@ Fases de implantação, ordem de módulos, cronograma
 
 | Versão | Data | Alterações |
 |--------|------|------------|
+| 3.0 | 29/11/2025 | Adicionado: Custos/Precificação, Contabilidade, Patrimônio, Contratos, Consignação, Garantia, Gamificação, Agenda |
 | 2.1 | 29/11/2025 | Adicionado: E-commerce B2B+B2C, RH com App do Colaborador, Rastreamento GPS |
 | 2.0 | 28/11/2025 | Reorganização: 23 capítulos, menus COMERCIAL e COMPRAS |
 | 1.0 | 28/11/2025 | Estrutura inicial: 34 capítulos |
