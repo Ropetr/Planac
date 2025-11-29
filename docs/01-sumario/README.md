@@ -541,10 +541,21 @@ Trocando produto com fornecedor:
 - Roteirização de entregas
 - Controle de frota
 - Integração com transportadoras
-- Rastreamento de entregas
 - Cálculo de frete
-- Comprovante de entrega digital
 - Registro de entregas fracionadas (.E1, .E2...)
+
+**App do Motorista/Entregador:**
+
+- Login do motorista
+- Lista de entregas do dia
+- Roteiro otimizado (Waze/Google Maps)
+- GPS em tempo real (compartilhado com cliente)
+- Check-in na entrega (chegou no local)
+- Foto do comprovante de entrega
+- Assinatura digital do recebedor
+- Registro de ocorrências (ausente, recusado, endereço errado)
+- Baixa automática da entrega
+- Notificação automática para o cliente
 
 ---
 
@@ -630,6 +641,8 @@ Trocando produto com fornecedor:
 
 - Meus pedidos (status, histórico completo)
 - Rastreamento de entregas
+- Rastreamento em tempo real no mapa (GPS do motorista)
+- Previsão de chegada atualizada
 - Segundas vias de boletos
 - Minhas notas fiscais (download XML/PDF)
 - Meus orçamentos/cotações
@@ -679,7 +692,10 @@ Trocando produto com fornecedor:
 - Retirada na loja/CD
 - Entrega agendada
 - Frete CIF / FOB (B2B)
-- Rastreamento integrado
+- Rastreamento integrado (código de rastreio)
+- Rastreamento em tempo real no mapa (Google Maps)
+- GPS dos motoristas/entregadores
+- Notificação automática (saiu para entrega, chegando)
 - Múltiplos CDs (estoque por região)
 
 **16.9 - Recuperação e Conversão:**
