@@ -17,7 +17,7 @@ Versão 2.0 - Estrutura Reorganizada | 23 Capítulos + 4 Anexos
 | **5** | Módulos Fiscais | 10-12 |
 | **6** | Separação e Expedição | 13 |
 | **7** | Módulos de Inteligência | 14 |
-| **8** | Módulos de Marketing e Atendimento | 15-17 |
+| **8** | Módulos de Marketing, E-commerce e Atendimento | 15-17 |
 | **9** | Módulos de Integração | 18-19 |
 | **10** | Módulos de Interface | 20-21 |
 | **11** | Módulos de Suporte | 22-23 |
@@ -561,7 +561,7 @@ Trocando produto com fornecedor:
 
 ---
 
-## PARTE 8 - MÓDULOS DE MARKETING E ATENDIMENTO
+## PARTE 8 - MÓDULOS DE MARKETING, E-COMMERCE E ATENDIMENTO
 
 ### Capítulo 15 - OmniPro (Atendimento Multicanal)
 
@@ -574,14 +574,139 @@ Trocando produto com fornecedor:
 - Histórico unificado
 - Transferência entre atendentes
 
-### Capítulo 16 - Criador de Sites
+### Capítulo 16 - E-commerce (B2B + B2C)
 
-- Landing pages
-- Catálogo de produtos online
-- SEO básico
+**16.1 - Configurações Gerais:**
+
+- Domínio e SSL
+- Identidade visual (logo, cores, fontes)
+- Páginas institucionais (Sobre, Contato, etc.)
+- Políticas (privacidade, troca, entrega)
+- SEO básico (meta tags, sitemap, robots)
 - Blog integrado
-- Formulários de contato
-- Integração com CRM
+
+**16.2 - Catálogo de Produtos:**
+
+- Sincronização automática com cadastro do ERP
+- Categorias e subcategorias
+- Filtros avançados (marca, preço, características)
+- Múltiplas fotos e vídeos por produto
+- Especificações técnicas detalhadas
+- Produtos relacionados e similares
+- Kits e combos
+- Produtos sob consulta (sem preço visível)
+- Estoque em tempo real
+- Avise-me quando chegar
+
+**16.3 - Vitrine B2C (Consumidor Final):**
+
+- Cadastro simplificado (CPF, e-mail, telefone)
+- Preço de varejo
+- Carrinho de compras
+- Lista de desejos
+- Avaliações e comentários de produtos
+- Comparador de produtos
+
+**16.4 - Portal B2B (Atacado/Revenda):**
+
+- Cadastro com aprovação prévia (CNPJ)
+- Análise de crédito integrada
+- Aprovação de pedido por alçada (mesmo com crédito aprovado)
+- Tabelas de preço por cliente/grupo
+- Quantidade mínima por produto
+- Desconto progressivo por volume
+- Pedido mínimo (valor ou quantidade)
+- Limite de crédito visível no painel
+- Saldo de crédito (indicações, devoluções)
+- Vendedor vinculado ao cliente
+- Cotação online (solicitar orçamento)
+- Pedido recorrente (repetir último pedido)
+- Múltiplas listas de compras salvas
+- Histórico de compras e preços
+- Download de XML das notas fiscais
+- Múltiplos endereços de entrega
+
+**16.5 - Área do Vendedor/Representante:**
+
+- Login como representante
+- Selecionar cliente para fazer pedido
+- Ver carteira de clientes
+- Acompanhar pedidos dos clientes
+- Comissões a receber
+- Metas e performance
+
+**16.6 - Formas de Pagamento:**
+
+- Checkout transparente
+- PIX (com QR Code e copia/cola)
+- Cartão de crédito (parcelado)
+- Cartão de débito
+- Boleto bancário
+- Duas ou mais formas combinadas
+- Uso de crédito do cliente (indicação, devolução)
+
+**Exclusivo B2B:**
+
+- Faturamento (28/35/42/56 dias)
+- Boleto parcelado
+- Cartão corporativo
+
+**16.7 - Frete e Logística:**
+
+- Integração com Correios
+- Integração com transportadoras
+- Tabela de frete própria
+- Frete grátis (regras configuráveis por valor/região)
+- Retirada na loja/CD
+- Entrega agendada
+- Frete CIF / FOB (B2B)
+- Rastreamento integrado
+- Múltiplos CDs (estoque por região)
+
+**16.8 - Recuperação e Conversão:**
+
+- Carrinho abandonado (e-mail automático)
+- Cupons de desconto
+- Promoções (compre X leve Y, desconto progressivo)
+- Banners rotativos
+- Vitrines personalizadas (mais vendidos, lançamentos)
+- Pop-ups de captura (primeira compra)
+- Contador de urgência (promoção por tempo limitado)
+
+**16.9 - Integrações:**
+
+- Sincronização com ERP PLANAC (estoque, preços, pedidos, clientes)
+- Marketplaces (estrutura preparada para futuro)
+  - Mercado Livre
+  - Amazon
+  - Shopee
+  - Magalu
+- Google Shopping / Merchant Center
+- Facebook/Instagram Shopping
+- Comparadores de preço (Buscapé, Zoom)
+- WhatsApp (botão flutuante e notificações)
+- Google Analytics / Tag Manager
+- Meta Pixel (Facebook/Instagram Ads)
+
+**16.10 - Relatórios e Analytics:**
+
+- Vendas por período
+- Vendas por categoria/produto
+- Produtos mais vendidos
+- Clientes que mais compram
+- Carrinho abandonado (taxa e valor)
+- Taxa de conversão
+- Origem do tráfego
+- Ticket médio
+- Novos clientes vs recorrentes
+- Dashboard em tempo real
+
+**16.11 - App Mobile (PWA):**
+
+- Versão responsiva otimizada
+- Progressive Web App (instalar na tela inicial)
+- Notificações push
+- Navegação offline (catálogo em cache)
 
 ### Capítulo 17 - Google e Meta
 
