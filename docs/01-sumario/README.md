@@ -871,14 +871,452 @@ Trocando produto com fornecedor:
 
 ## PARTE 7 - MÓDULOS DE INTELIGÊNCIA
 
-### Capítulo 16 - BI e Dashboards
+### Capítulo 16 - BI, Dashboards e Relatórios Gerenciais
 
-- Dashboards personalizáveis
-- KPIs por módulo
-- Relatórios gerenciais
-- Exportação de dados
-- Análise de tendências
-- Comparativos (período, filial, vendedor)
+**16.1 - Dashboards Executivos:**
+
+**Dashboard do CEO/Diretor:**
+
+- Visão consolidada em 1 página
+- Faturamento (período, meta, variação)
+- Crescimento MoM (mês a mês) e YoY (ano a ano)
+- Top 10 clientes por faturamento
+- Top 10 produtos mais vendidos
+- Pipeline comercial (funil de vendas)
+- Mapa de calor de vendas por região/estado
+- Alertas críticos (clientes em risco, metas abaixo, exceções)
+- Indicadores: Ticket Médio, Conversão, NPS
+
+**Dashboard do CFO/Financeiro:**
+
+- Posição de caixa atual
+- Fluxo de caixa realizado vs projetado
+- Contas a receber (aging: 0-30, 31-60, 61-90, >90 dias)
+- Contas a pagar (vencimentos próximos)
+- Inadimplência % e evolução
+- EBITDA e margens
+- DRE resumido do período
+- Indicadores: PMR, PMP, PME, Liquidez
+
+**Dashboard Comercial:**
+
+- Vendas do dia/semana/mês
+- Ranking de vendedores
+- Atingimento de metas (individual e equipe)
+- Orçamentos pendentes de aprovação
+- Pedidos aguardando faturamento
+- Entregas pendentes
+- Comissões a pagar
+- Indicadores: Conversão orçamento→venda, Ticket médio
+
+**Dashboard de Compras/Estoque:**
+
+- Posição de estoque (valor e quantidade)
+- Produtos abaixo do estoque mínimo
+- Produtos sem giro (parados)
+- Pedidos de compra pendentes
+- Recebimentos previstos
+- Curva ABC de estoque
+- Giro de estoque
+
+**Dashboard E-commerce:**
+
+- Vendas online (tempo real)
+- Visitantes e conversão
+- Carrinho abandonado
+- Origem de tráfego
+- Top produtos online
+- Pedidos aguardando envio
+
+**16.2 - Relatórios para CFO/Financeiro:**
+
+**Demonstrativos Contábeis:**
+
+- DRE - Demonstrativo de Resultado (Mensal/Trimestral/Anual)
+- DRE Comparativo (período atual vs anterior)
+- DRE por Centro de Custo/Filial
+- Balanço Patrimonial
+- DFC - Demonstração de Fluxo de Caixa (Método Direto e Indireto)
+- DMPL - Demonstração das Mutações do Patrimônio Líquido
+
+**Fluxo de Caixa:**
+
+- Fluxo de Caixa Realizado (por período)
+- Fluxo de Caixa Projetado (30/60/90 dias)
+- Posição Diária de Caixa
+- Movimentação por Conta Bancária
+- Conciliação Bancária
+
+**Indicadores Financeiros:**
+
+- EBITDA e Margem EBITDA
+- Margem Bruta, Operacional e Líquida
+- ROI (Retorno sobre Investimento)
+- ROE (Retorno sobre Patrimônio)
+- ROA (Retorno sobre Ativos)
+- ROIC (Retorno sobre Capital Investido)
+
+**Indicadores de Liquidez:**
+
+- Liquidez Corrente
+- Liquidez Seca
+- Liquidez Imediata
+- Liquidez Geral
+
+**Capital de Giro:**
+
+- NCG - Necessidade de Capital de Giro
+- Capital Circulante Líquido
+- Ciclo Operacional
+- Ciclo Financeiro
+
+**Prazos Médios:**
+
+- PMR - Prazo Médio de Recebimento
+- PMP - Prazo Médio de Pagamento
+- PME - Prazo Médio de Estoque
+- Ciclo de Caixa
+
+**Recebíveis:**
+
+- Aging de Contas a Receber (estratificado por dias)
+- Análise de Inadimplência (% e evolução)
+- PDD - Provisão para Devedores Duvidosos
+- Recebíveis por Cliente
+- Recebíveis por Vendedor
+- Títulos Vencidos Detalhado
+
+**Contas a Pagar:**
+
+- Aging de Contas a Pagar
+- Concentração de Fornecedores
+- Pagamentos Previstos (próximos 30 dias)
+- Histórico de Pagamentos
+
+**Rentabilidade:**
+
+- Rentabilidade por Produto
+- Rentabilidade por Categoria
+- Rentabilidade por Cliente
+- Rentabilidade por Canal de Venda
+- Rentabilidade por Filial
+- Rentabilidade por Vendedor
+- Margem de Contribuição
+
+**Custos:**
+
+- Custo por Unidade Vendida
+- Custos Fixos vs Variáveis
+- Evolução de Custos (histórico)
+- Composição de Custos
+- Custo da Mercadoria Vendida (CMV)
+
+**Ponto de Equilíbrio:**
+
+- Break-even Geral da Empresa
+- Break-even por Produto
+- Break-even por Filial
+- Simulador de Cenários
+
+**Orçamento (Budget):**
+
+- Orçado vs Realizado (por conta)
+- Variações (favoráveis e desfavoráveis)
+- Forecast (projeção atualizada)
+- Budget por Centro de Custo
+- Budget por Filial
+
+**Endividamento:**
+
+- Dívida Bruta e Líquida
+- Dívida/Patrimônio Líquido
+- Dívida/EBITDA
+- Cobertura de Juros
+- Cronograma de Amortização
+
+**Tributário:**
+
+- Impostos a Pagar (por tipo)
+- Créditos Tributários Acumulados
+- Carga Tributária % sobre Faturamento
+- Apuração de ICMS/PIS/COFINS/ISS
+
+**16.3 - Relatórios para CEO/Executivo:**
+
+**Faturamento:**
+
+- Faturamento por Período (dia/semana/mês/ano)
+- Faturamento por Região/Estado/Cidade
+- Faturamento por Canal (Loja/E-commerce/Representante)
+- Faturamento por Vendedor
+- Faturamento por Filial
+- Evolução MoM e YoY
+- Faturamento vs Meta
+
+**Crescimento:**
+
+- Crescimento vs Ano Anterior
+- Crescimento vs Meta
+- Tendência de Crescimento
+- Projeção de Faturamento
+
+**Performance Comercial:**
+
+- Ticket Médio (geral e por canal)
+- Conversão de Leads (CRM)
+- Taxa de Fechamento
+- Tempo Médio de Fechamento
+- Velocidade do Funil
+
+**Clientes:**
+
+- Top 10/20/50 Clientes por Faturamento
+- Novos Clientes por Período
+- Clientes Perdidos (Churn)
+- Clientes Reativados
+- Concentração de Faturamento (Pareto)
+- Frequência de Compra
+- Recência de Compra
+
+**Indicadores de Valor:**
+
+- LTV - Lifetime Value (valor vitalício do cliente)
+- CAC - Custo de Aquisição de Cliente
+- Relação LTV/CAC
+- Payback de Aquisição
+
+**Produtos:**
+
+- Top 10/20 Produtos Mais Vendidos
+- Mix de Vendas (participação por categoria)
+- Curva ABC de Produtos
+- Produtos sem Giro
+- Lançamentos e Performance
+- Cross-sell e Up-sell
+
+**Equipes:**
+
+- Ranking de Vendedores
+- Atingimento de Metas (% individual)
+- Produtividade (vendas por vendedor)
+- Comparativo entre Equipes
+- Evolução de Performance
+
+**Pipeline/Funil:**
+
+- Valor Total em Prospecção
+- Oportunidades por Etapa
+- Previsão de Fechamento
+- Taxa de Conversão por Etapa
+- Tempo Médio por Etapa
+
+**Satisfação:**
+
+- NPS - Net Promoter Score
+- Avaliações de Clientes
+- Reclamações e Tratativas
+- Tempo de Resposta
+
+**Operacional:**
+
+- Pedidos Pendentes de Faturamento
+- Entregas Atrasadas
+- Estoque Crítico (abaixo do mínimo)
+- Devoluções e Trocas
+- Ocorrências de Entrega
+
+**Mapa de Calor:**
+
+- Vendas por Estado (mapa visual)
+- Vendas por Cidade (mapa visual)
+- Concentração Geográfica
+
+**Comparativos:**
+
+- Filial vs Filial
+- Canal vs Canal
+- Vendedor vs Vendedor
+- Período vs Período
+- Produto vs Produto
+
+**16.4 - Relatórios por Área/Módulo:**
+
+**Comercial:**
+
+- Vendas por Período
+- Vendas por Vendedor
+- Vendas por Cliente
+- Vendas por Produto/Categoria
+- Comissões a Pagar
+- Bonificações Concedidas
+- Devoluções e Trocas
+- Consignações (posição e acertos)
+- Orçamentos Emitidos vs Convertidos
+- Pedidos por Status
+- Garantias (chamados e custos)
+
+**Compras:**
+
+- Compras por Período
+- Compras por Fornecedor
+- Histórico de Preços por Produto
+- Comparativo de Fornecedores
+- Pedidos de Compra Pendentes
+- Recebimentos Realizados
+- Divergências de Recebimento
+- Bonificações Recebidas
+
+**Estoque:**
+
+- Posição de Estoque (quantidade e valor)
+- Estoque por Filial/Armazém
+- Estoque por Categoria
+- Giro de Estoque
+- Estoque Parado (sem movimento)
+- Produtos Abaixo do Mínimo
+- Produtos Acima do Máximo
+- Inventário (posição e divergências)
+- Valorização de Estoque (custo médio/PEPS)
+- Movimentação de Estoque
+- Transferências entre Filiais
+- Curva ABC
+
+**Financeiro:**
+
+- Contas a Receber (analítico e sintético)
+- Contas a Pagar (analítico e sintético)
+- Recebimentos por Forma de Pagamento
+- Pagamentos por Tipo
+- Conciliação Bancária
+- Movimentação de Caixa
+- Cheques Emitidos/Recebidos
+- Créditos de Clientes (carteira)
+
+**Fiscal:**
+
+- NF-e Emitidas
+- NFC-e Emitidas
+- NFS-e Emitidas
+- NF-e Canceladas
+- Apuração de ICMS
+- Apuração de PIS/COFINS
+- Livros Fiscais
+- Obrigações Acessórias
+
+**RH:**
+
+- Headcount (quadro de funcionários)
+- Turnover (rotatividade)
+- Absenteísmo
+- Custo de Pessoal
+- Horas Extras
+- Banco de Horas
+- Férias Vencidas/a Vencer
+- Aniversariantes
+
+**E-commerce:**
+
+- Vendas Online por Período
+- Taxa de Conversão
+- Carrinho Abandonado (valor e quantidade)
+- Origem de Tráfego
+- Produtos Mais Vistos vs Mais Vendidos
+- Tempo Médio de Navegação
+- Avaliações de Produtos
+
+**Expedição/Logística:**
+
+- Entregas Realizadas
+- Entregas Pendentes
+- Prazo Médio de Entrega
+- Ocorrências de Entrega
+- Custo de Frete (próprio e terceiro)
+- Reentregas
+- Performance por Motorista
+- Roteirização
+
+**16.5 - KPIs e Indicadores:**
+
+**Matriz de KPIs por Perfil:**
+
+| KPI | CEO | CFO | Gerente Comercial | Gerente Compras | Gerente RH |
+|-----|-----|-----|-------------------|-----------------|------------|
+| Faturamento | ✅ | ✅ | ✅ | - | - |
+| EBITDA | ✅ | ✅ | - | - | - |
+| Margem Bruta | ✅ | ✅ | ✅ | ✅ | - |
+| Margem Líquida | ✅ | ✅ | - | - | - |
+| Ticket Médio | ✅ | - | ✅ | - | - |
+| Conversão | ✅ | - | ✅ | - | - |
+| Inadimplência | ✅ | ✅ | ✅ | - | - |
+| Giro de Estoque | - | ✅ | - | ✅ | - |
+| PMR/PMP/PME | - | ✅ | - | ✅ | - |
+| NPS | ✅ | - | ✅ | - | - |
+| Turnover | ✅ | ✅ | - | - | ✅ |
+| Custo por Pedido | - | ✅ | - | ✅ | - |
+| LTV/CAC | ✅ | ✅ | ✅ | - | - |
+
+**Alertas Automáticos:**
+
+- Meta de vendas abaixo de X%
+- Inadimplência acima de X%
+- Estoque crítico (abaixo do mínimo)
+- Fluxo de caixa negativo projetado
+- Títulos vencidos há mais de X dias
+- Pedidos sem faturamento há mais de X dias
+- Entregas atrasadas
+- Clientes inativos há mais de X dias
+- Certificado digital próximo do vencimento
+- Contratos próximos do vencimento
+
+**16.6 - Funcionalidades do BI:**
+
+**Visualização:**
+
+- Gráficos interativos (linha, barra, pizza, área, funil)
+- Tabelas dinâmicas (pivot)
+- Mapas geográficos (calor, bolhas)
+- Gauges (velocímetros)
+- Sparklines (mini-gráficos)
+- Cards de KPIs
+
+**Filtros e Drill-down:**
+
+- Filtros por período
+- Filtros por filial/empresa
+- Filtros por vendedor/equipe
+- Filtros por cliente/categoria
+- Drill-down (de ano para mês para dia)
+- Drill-through (do resumo para o detalhe)
+
+**Personalização:**
+
+- Dashboards personalizáveis por usuário
+- Widgets arrastáveis
+- Favoritos
+- Layouts salvos
+- Cores e temas
+
+**Exportação:**
+
+- PDF (relatórios formatados)
+- Excel (dados brutos)
+- CSV
+- Impressão
+- Agendamento de envio por e-mail
+
+**Integração:**
+
+- Power BI (exportação de dados)
+- Google Data Studio
+- Metabase
+- API de dados para ferramentas externas
+
+**Histórico:**
+
+- Dados históricos (mínimo 5 anos)
+- Comparativos entre períodos
+- Tendências e projeções
+- Sazonalidade
 
 ---
 
@@ -1394,7 +1832,7 @@ Fases de implantação, ordem de módulos, cronograma
 | Total de Anexos | 4 |
 | Submódulos COMERCIAL | 12 |
 | Submódulos COMPRAS | 12 |
-| Versão | 3.0 |
+| Versão | 3.1 |
 
 ---
 
@@ -1402,6 +1840,7 @@ Fases de implantação, ordem de módulos, cronograma
 
 | Versão | Data | Alterações |
 |--------|------|------------|
+| 3.1 | 02/12/2025 | Capítulo 16 expandido: BI, Dashboards e Relatórios Gerenciais (CFO, CEO, por área) |
 | 3.0 | 29/11/2025 | Adicionado: Custos/Precificação, Contabilidade, Patrimônio, Contratos, Consignação, Garantia, Gamificação, Agenda |
 | 2.1 | 29/11/2025 | Adicionado: E-commerce B2B+B2C, RH com App do Colaborador, Rastreamento GPS |
 | 2.0 | 28/11/2025 | Reorganização: 23 capítulos, menus COMERCIAL e COMPRAS |
