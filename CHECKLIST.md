@@ -39,7 +39,7 @@
 |---|-----------|-----------|:------:|------|
 | 2.1 | **Wireframes / Protótipos** | Esboço de cada tela do sistema | 🟡 Parcial | - |
 | 2.2 | **Especificação de Telas** | Campos, validações, máscaras | ⏳ Fazer | [Ver](./docs/06-especificacao-telas/README.md) |
-| 2.3 | **Relatórios e Dashboards** | Lista de todos os relatórios | ⏳ Fazer | - |
+| 2.3 | **Relatórios e Dashboards** | Lista de todos os relatórios | 🟡 Parcial | Cap 16 expandido |
 | 2.4 | **Notificações e Alertas** | Quais alertas, quando disparam | ⏳ Fazer | - |
 | 2.5 | **Parâmetros do Sistema** | Configurações parametrizáveis | ⏳ Fazer | - |
 | 2.6 | **Glossário de Termos** | Definição de termos (CFOP, ST, Kit, etc.) | ⏳ Fazer | [Ver](./docs/10-anexos/glossario.md) |
